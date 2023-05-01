@@ -1,4 +1,3 @@
-import classes from "./MoveItem.module.css";
 import arrow from "../Assets/Icons/arrow.svg"
 import home from "../Assets/Icons/home.svg"
 import danger from "../Assets/Icons/danger.svg"

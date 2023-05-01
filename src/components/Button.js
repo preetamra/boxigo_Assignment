@@ -26,7 +26,7 @@ function Button(props) {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      {props.icon && <img src={props.icon} style={{width:"35%",height:"35%", marginRight: '10px' }}/>}
+      {props.icon && <img src={props.icon} style={{width:"35%",height:"35%", marginRight: '10px' }} alt='truck'/>}
       <span style={{fontWeight:"bold",fontSize:"20px"}}>{props.text}</span>
     </button>
   );
