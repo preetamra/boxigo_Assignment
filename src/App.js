@@ -29,7 +29,7 @@ function App() {
          <Button text={"My Moves"} icon={truck}></Button>
       </div>
       <div style={{width:"80%",display:"flex",flexDirection:"column",justifyContent:"space-between",alignContent:"start"}}>
-      <h2 style={{margin:"10px auto "}}>My Moves</h2>
+      <h2 style={{margin:"10px auto"}}>My Moves</h2>
       {
         data.Customer_Estimate_Flow?.map((data) => {
           return(
