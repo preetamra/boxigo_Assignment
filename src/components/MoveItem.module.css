@@ -1,0 +1,19 @@
+.ItemContainer-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid red;
+    height: 20vh;
+    margin: 5px;
+}
+
+.ItemContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    
+}
+
+
