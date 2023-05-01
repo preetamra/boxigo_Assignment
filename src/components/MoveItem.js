@@ -27,7 +27,7 @@ export default function MoveItem(props) {
               <div>{props.data.from_address.fromLocality},{props.data.from_address.fromCity},{props.data.from_address.fromState}</div>
             </div>
             <div style={{display: "flex", justifyContent: "center", alignItems: "center", height: "50px", width: "50px", backgroundColor: "white", borderRadius: "50%", boxShadow: "2px 2px 3px 0px rgba(0,0,0,0.3)"}}>
-            <img src={arrow} style={{width:24,height:24}}></img>
+            <img src={arrow} style={{width:24,height:24}} alt=""></img>
         </div>
             <div style={{paddingBottom:"50px"}}>
               <div style={{fontWeight: "bold"}}>To</div>
